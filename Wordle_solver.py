@@ -1,3 +1,16 @@
+'''
+This Python code takes a character string as input of any length and gives out all the 
+possible English dictionary words of any length that can be made from it. 
+
+Suppose your input is "evil", the output will be- [i, ie, lie, live, evil, vile, veil].
+
+Along with this Python code, you will need a file named- English_words.csv, it contains
+around 4 Lakh English words. Its location has to be passed inside this code at line #17.
+
+That's it, Enjoy your daily Wordle without fail !!!    
+'''
+
+
 import pandas as pd
 
 english_words_list_csv = pd.read_csv(
